@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mixins]]
+config = "stack999.mixins.json"
+
+[[mods]]
+modId = "stack999"
+version = "${version}"
+displayName = "Building Materials 999"
+authors = "You"
+description = '''Lets tagged building materials stack up to 999.'''
+
+[[dependencies.stack999]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.stack999]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
